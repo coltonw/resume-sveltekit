@@ -1,10 +1,11 @@
 <script>
+  import GolangLine from '../iconLines/GolangLine.svelte';
   import Paragraph from '$lib/Paragraph.svelte';
   import Link from '$lib/Link.svelte';
   import EmbeddedVideo from '$lib/EmbeddedVideo.svelte';
 </script>
 
-<!-- <GolangLine /> -->
+<GolangLine />
 <Paragraph>
   All of my side projects are partially rooted in learning something new. At the
   time, I was learning Go and so I wrote a few different voting algorithms in
