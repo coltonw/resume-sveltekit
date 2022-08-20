@@ -5,6 +5,7 @@
   import BGV from '$lib/sections/BGV.svelte';
   import Revonarchy from '$lib/sections/Revonarchy.svelte';
   import Judgement from '$lib/sections/Judgement.svelte';
+  import SensorsAreDown from '$lib/sections/SensorsAreDown.svelte';
   import Outro from '$lib/sections/Outro.svelte';
 
   export const prerender = true;
@@ -16,4 +17,5 @@
 <BGV />
 <Revonarchy />
 <Judgement />
+<SensorsAreDown />
 <Outro />

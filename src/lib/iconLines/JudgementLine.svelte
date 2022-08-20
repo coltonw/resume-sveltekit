@@ -26,7 +26,7 @@
       title="Phoenix Framework"
       href="https://www.phoenixframework.org/"
     >
-      <Phoenix class={`${iconClassName} w-12`} />
+      <Phoenix class={iconClassName} />
     </LineIcon>
     <LineIcon title="CircleCI" href="https://circleci.com/">
       <CircleCI class={iconClassName} />

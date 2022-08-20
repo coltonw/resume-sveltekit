@@ -7,7 +7,8 @@ if (Deno.args.length < 2) {
 const svgTsx = await Deno.readTextFile(Deno.args[0]);
 
 let svgSvelte = svgTsx.replace(/^\s*/s, '');
-svgSvelte = svgSvelte.replace(/^\/[^/]*\/\n/s, '');
+svgSvelte = svgSvelte.replace(/^\/[^/]*\/\n/, '');
+svgSvelte = svgSvelte.replace(/^\/[^/]*\/\n/, '');
 svgSvelte = svgSvelte.replace(/import[^\n]*"preact";\n/, '');
 svgSvelte = svgSvelte.replace(/import[^\n]*twind";\n/, '');
 svgSvelte = svgSvelte.replace(
@@ -22,6 +23,7 @@ svgSvelte = svgSvelte.replace(/\.ts/g, '');
 svgSvelte = svgSvelte.replace(/iconClassName\(\)/g, 'iconClassName');
 svgSvelte = svgSvelte.replace(/class=\{tw`([^`]*)`\}/g, 'class="$1"');
 svgSvelte = svgSvelte.replace(/warmGray/g, 'stone');
+svgSvelte = svgSvelte.replace(/\n *<\/?>/g, '');
 
 const svgRegexExec =
   /^((?:(?:import|let|export) [^\n]*\n)*)(?:[^<\n]|\n[^ile])*(<[\s\S]*>)[^>]*$/.exec(
