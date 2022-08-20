@@ -4,9 +4,8 @@
   import LineIcon from '../LineIcon.svelte';
   import SubHeading from '../SubHeading.svelte';
   import SubHeadingTitle from '../SubHeadingTitle.svelte';
-  import Golang from '../svgs/Bower.svelte';
-  // import { iconClassName } from './util.ts';
-  const iconClassName = 'flex-none w-8 h-8 mx-2 fill-current';
+  import Golang from '../svgs/Gulp.svelte';
+  import { iconClassName } from './util';
 </script>
 
 <SubHeading>

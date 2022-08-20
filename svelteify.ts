@@ -6,9 +6,16 @@ if (Deno.args.length < 2) {
 
 const svgTsx = await Deno.readTextFile(Deno.args[0]);
 
-let svgSvelte = svgTsx.replace(/^\/[^/]*\/\n/s, '');
-svgSvelte = svgSvelte.replace(/^import[^\n]*"preact";\n/, '');
-svgSvelte = svgSvelte.replace(/^import[^\n]*twind";\n/, '');
+let svgSvelte = svgTsx.replace(/^\s*/s, '');
+svgSvelte = svgSvelte.replace(/^\/[^/]*\/\n/s, '');
+svgSvelte = svgSvelte.replace(/import[^\n]*"preact";\n/, '');
+svgSvelte = svgSvelte.replace(/import[^\n]*twind";\n/, '');
+svgSvelte = svgSvelte.replace(
+  /import[^\n]*svg\.d\.ts";\n/,
+  `let className = '';
+export { className as class };
+`
+);
 svgSvelte = svgSvelte.replace(/(import [^"\n]*)"([^"]*)"/g, "$1'$2'");
 svgSvelte = svgSvelte.replace(/\.tsx/g, '.svelte');
 svgSvelte = svgSvelte.replace(/\.ts/g, '');
@@ -17,8 +24,10 @@ svgSvelte = svgSvelte.replace(/class=\{tw`([^`]*)`\}/g, 'class="$1"');
 svgSvelte = svgSvelte.replace(/warmGray/g, 'stone');
 
 const svgRegexExec =
-  /^((?:import [^\n]*\n)*)(?:[^<\n]|\n[^i])*(<[\s\S]*>)[^>]*$/.exec(svgSvelte);
-if (svgRegexExec && svgRegexExec[1].indexOf('i') >= 0) {
+  /^((?:(?:import|let|export) [^\n]*\n)*)(?:[^<\n]|\n[^ile])*(<[\s\S]*>)[^>]*$/.exec(
+    svgSvelte
+  );
+if (svgRegexExec && /[a-z]/.test(svgRegexExec[1])) {
   svgSvelte = `<script lang="ts">
 ${svgRegexExec[1].replace(/\n$/, '').replace(/(^|\n)/g, '$1  ')}
 </script>
