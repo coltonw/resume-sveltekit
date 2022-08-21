@@ -6,6 +6,7 @@
   import Revonarchy from '$lib/sections/Revonarchy.svelte';
   import Judgement from '$lib/sections/Judgement.svelte';
   import SensorsAreDown from '$lib/sections/SensorsAreDown.svelte';
+  import ICG from '$lib/sections/ICG.svelte';
   import Outro from '$lib/sections/Outro.svelte';
 
   export const prerender = true;
@@ -18,4 +19,5 @@
 <Revonarchy />
 <Judgement />
 <SensorsAreDown />
+<ICG />
 <Outro />
