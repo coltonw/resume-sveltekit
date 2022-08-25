@@ -1,13 +1,13 @@
 <script lang="ts">
-  import IconLine from '../IconLine.svelte';
-  import LineDate from '../LineDate.svelte';
-  import LineIcon from '../LineIcon.svelte';
-  import SubHeading from '../SubHeading.svelte';
-  import SubHeadingTitle from '../SubHeadingTitle.svelte';
-  import Alexa from '../svgs/Alexa.svelte';
-  import Aws from '../svgs/Aws.svelte';
-  import Serverless from '../svgs/Serverless.svelte';
-  import Flow from '../svgs/Flow.svelte';
+  import IconLine from '$lib/IconLine.svelte';
+  import LineDate from '$lib/LineDate.svelte';
+  import LineIcon from '$lib/LineIcon.svelte';
+  import SubHeading from '$lib/SubHeading.svelte';
+  import SubHeadingTitle from '$lib/SubHeadingTitle.svelte';
+  import Alexa from '$lib/svgs/Alexa.svelte';
+  import Aws from '$lib/svgs/Aws.svelte';
+  import Serverless from '$lib/svgs/Serverless.svelte';
+  import Flow from '$lib/svgs/Flow.svelte';
   import { iconClassName } from './util';
 </script>
 

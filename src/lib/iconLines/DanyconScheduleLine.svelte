@@ -1,13 +1,13 @@
 <script lang="ts">
-  import IconLine from '../IconLine.svelte';
-  import LineDate from '../LineDate.svelte';
-  import LineIcon from '../LineIcon.svelte';
-  import SubHeading from '../SubHeading.svelte';
-  import SubHeadingTitle from '../SubHeadingTitle.svelte';
-  import NextJs from '../svgs/NextJs.svelte';
-  import Vercel from '../svgs/Vercel.svelte';
-  import Bulma from '../svgs/Bulma.svelte';
-  import Aws from '../svgs/Aws.svelte';
+  import IconLine from '$lib/IconLine.svelte';
+  import LineDate from '$lib/LineDate.svelte';
+  import LineIcon from '$lib/LineIcon.svelte';
+  import SubHeading from '$lib/SubHeading.svelte';
+  import SubHeadingTitle from '$lib/SubHeadingTitle.svelte';
+  import NextJs from '$lib/svgs/NextJs.svelte';
+  import Vercel from '$lib/svgs/Vercel.svelte';
+  import Bulma from '$lib/svgs/Bulma.svelte';
+  import Aws from '$lib/svgs/Aws.svelte';
   import { iconClassName } from './util';
 </script>
 

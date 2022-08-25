@@ -1,8 +1,8 @@
 <script lang="ts">
-  import SectionHeading from '../SectionHeading.svelte';
-  import Paragraph from '../Paragraph.svelte';
-  import Link from '../Link.svelte';
-  import SensorsAreDownLine from '../iconLines/SensorsAreDownLine.svelte';
+  import SectionHeading from '$lib/SectionHeading.svelte';
+  import Paragraph from '$lib/Paragraph.svelte';
+  import Link from '$lib/Link.svelte';
+  import SensorsAreDownLine from '$lib/iconLines/SensorsAreDownLine.svelte';
 </script>
 
 <SectionHeading>Gaming Side Projects</SectionHeading>

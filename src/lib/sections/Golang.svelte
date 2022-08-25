@@ -1,5 +1,5 @@
 <script>
-  import GolangLine from '../iconLines/GolangLine.svelte';
+  import GolangLine from '$lib/iconLines/GolangLine.svelte';
   import Paragraph from '$lib/Paragraph.svelte';
   import Link from '$lib/Link.svelte';
   import EmbeddedVideo from '$lib/EmbeddedVideo.svelte';

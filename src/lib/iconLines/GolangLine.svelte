@@ -1,10 +1,10 @@
 <script lang="ts">
-  import IconLine from '../IconLine.svelte';
-  import LineDate from '../LineDate.svelte';
-  import LineIcon from '../LineIcon.svelte';
-  import SubHeading from '../SubHeading.svelte';
-  import SubHeadingTitle from '../SubHeadingTitle.svelte';
-  import Golang from '../svgs/Golang.svelte';
+  import IconLine from '$lib/IconLine.svelte';
+  import LineDate from '$lib/LineDate.svelte';
+  import LineIcon from '$lib/LineIcon.svelte';
+  import SubHeading from '$lib/SubHeading.svelte';
+  import SubHeadingTitle from '$lib/SubHeadingTitle.svelte';
+  import Golang from '$lib/svgs/Golang.svelte';
   import { iconClassName } from './util';
 </script>
 

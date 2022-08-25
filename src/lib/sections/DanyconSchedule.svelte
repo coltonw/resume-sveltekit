@@ -1,8 +1,8 @@
 <script lang="ts">
-  import Paragraph from '../Paragraph.svelte';
-  import Link from '../Link.svelte';
-  import EmbeddedVideo from '../EmbeddedVideo.svelte';
-  import DanyconScheduleLine from '../iconLines/DanyconScheduleLine.svelte';
+  import Paragraph from '$lib/Paragraph.svelte';
+  import Link from '$lib/Link.svelte';
+  import EmbeddedVideo from '$lib/EmbeddedVideo.svelte';
+  import DanyconScheduleLine from '$lib/iconLines/DanyconScheduleLine.svelte';
 </script>
 
 <DanyconScheduleLine />

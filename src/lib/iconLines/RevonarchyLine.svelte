@@ -1,15 +1,15 @@
 <script lang="ts">
-  import IconLine from '../IconLine.svelte';
-  import LineDate from '../LineDate.svelte';
-  import LineIcon from '../LineIcon.svelte';
-  import SubHeading from '../SubHeading.svelte';
-  import SubHeadingTitle from '../SubHeadingTitle.svelte';
-  import Bower from '../svgs/Bower.svelte';
-  import Koa from '../svgs/Koa.svelte';
-  import Less from '../svgs/Less.svelte';
-  import Gulp from '../svgs/Gulp.svelte';
-  import Ramda from '../svgs/Ramda.svelte';
-  import React from '../svgs/React.svelte';
+  import IconLine from '$lib/IconLine.svelte';
+  import LineDate from '$lib/LineDate.svelte';
+  import LineIcon from '$lib/LineIcon.svelte';
+  import SubHeading from '$lib/SubHeading.svelte';
+  import SubHeadingTitle from '$lib/SubHeadingTitle.svelte';
+  import Bower from '$lib/svgs/Bower.svelte';
+  import Koa from '$lib/svgs/Koa.svelte';
+  import Less from '$lib/svgs/Less.svelte';
+  import Gulp from '$lib/svgs/Gulp.svelte';
+  import Ramda from '$lib/svgs/Ramda.svelte';
+  import React from '$lib/svgs/React.svelte';
   import { iconClassName } from './util';
 </script>
 

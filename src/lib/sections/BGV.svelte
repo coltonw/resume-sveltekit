@@ -1,8 +1,8 @@
 <script lang="ts">
-  import Paragraph from '../Paragraph.svelte';
-  import Link from '../Link.svelte';
-  import EmbeddedImage from '../EmbeddedImage.svelte';
-  import IndifferenceLine from '../iconLines/IndifferenceLine.svelte';
+  import Paragraph from '$lib/Paragraph.svelte';
+  import Link from '$lib/Link.svelte';
+  import EmbeddedImage from '$lib/EmbeddedImage.svelte';
+  import IndifferenceLine from '$lib/iconLines/IndifferenceLine.svelte';
 </script>
 
 <IndifferenceLine />

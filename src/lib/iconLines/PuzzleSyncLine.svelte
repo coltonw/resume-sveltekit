@@ -1,17 +1,17 @@
 <script lang="ts">
-  import IconLine from '../IconLine.svelte';
-  import LineDate from '../LineDate.svelte';
-  import LineIcon from '../LineIcon.svelte';
-  import SubHeading from '../SubHeading.svelte';
-  import SubHeadingTitle from '../SubHeadingTitle.svelte';
-  import Gatsby from '../svgs/Gatsby.svelte';
-  import React from '../svgs/React.svelte';
-  import Typescript from '../svgs/Typescript.svelte';
-  import Graphql from '../svgs/Graphql.svelte';
-  import Auth0 from '../svgs/Auth0.svelte';
-  import CircleCI from '../svgs/CircleCI.svelte';
-  import Aws from '../svgs/Aws.svelte';
-  import Serverless from '../svgs/Serverless.svelte';
+  import IconLine from '$lib/IconLine.svelte';
+  import LineDate from '$lib/LineDate.svelte';
+  import LineIcon from '$lib/LineIcon.svelte';
+  import SubHeading from '$lib/SubHeading.svelte';
+  import SubHeadingTitle from '$lib/SubHeadingTitle.svelte';
+  import Gatsby from '$lib/svgs/Gatsby.svelte';
+  import React from '$lib/svgs/React.svelte';
+  import Typescript from '$lib/svgs/Typescript.svelte';
+  import Graphql from '$lib/svgs/Graphql.svelte';
+  import Auth0 from '$lib/svgs/Auth0.svelte';
+  import CircleCI from '$lib/svgs/CircleCI.svelte';
+  import Aws from '$lib/svgs/Aws.svelte';
+  import Serverless from '$lib/svgs/Serverless.svelte';
   import { iconClassName } from './util';
 </script>
 

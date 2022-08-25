@@ -1,14 +1,14 @@
 <script lang="ts">
-  import IconLine from '../IconLine.svelte';
-  import LineDate from '../LineDate.svelte';
-  import LineIcon from '../LineIcon.svelte';
-  import SubHeading from '../SubHeading.svelte';
-  import SubHeadingTitle from '../SubHeadingTitle.svelte';
-  import Unity from '../svgs/Unity.svelte';
-  import CSharp from '../svgs/CSharp.svelte';
-  import Python from '../svgs/Python.svelte';
-  import Aws from '../svgs/Aws.svelte';
-  import Serverless from '../svgs/Serverless.svelte';
+  import IconLine from '$lib/IconLine.svelte';
+  import LineDate from '$lib/LineDate.svelte';
+  import LineIcon from '$lib/LineIcon.svelte';
+  import SubHeading from '$lib/SubHeading.svelte';
+  import SubHeadingTitle from '$lib/SubHeadingTitle.svelte';
+  import Unity from '$lib/svgs/Unity.svelte';
+  import CSharp from '$lib/svgs/CSharp.svelte';
+  import Python from '$lib/svgs/Python.svelte';
+  import Aws from '$lib/svgs/Aws.svelte';
+  import Serverless from '$lib/svgs/Serverless.svelte';
   import { iconClassName } from './util';
 </script>
 

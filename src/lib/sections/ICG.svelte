@@ -1,10 +1,10 @@
 <script lang="ts">
-  import SectionHeading from '../SectionHeading.svelte';
-  import Paragraph from '../Paragraph.svelte';
-  import Link from '../Link.svelte';
-  import EmbeddedVideo from '../EmbeddedVideo.svelte';
-  import IcgScalaJsLine from '../iconLines/IcgScalaJsLine.svelte';
-  import IcgUnityLine from '../iconLines/IcgUnityLine.svelte';
+  import SectionHeading from '$lib/SectionHeading.svelte';
+  import Paragraph from '$lib/Paragraph.svelte';
+  import Link from '$lib/Link.svelte';
+  import EmbeddedVideo from '$lib/EmbeddedVideo.svelte';
+  import IcgScalaJsLine from '$lib/iconLines/IcgScalaJsLine.svelte';
+  import IcgUnityLine from '$lib/iconLines/IcgUnityLine.svelte';
 </script>
 
 <SectionHeading>Instantaneous Card Game</SectionHeading>

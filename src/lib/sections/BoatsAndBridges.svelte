@@ -1,9 +1,9 @@
 <script lang="ts">
-  import SectionHeading from '../SectionHeading.svelte';
-  import Paragraph from '../Paragraph.svelte';
-  import Link from '../Link.svelte';
-  import EmbeddedVideo from '../EmbeddedVideo.svelte';
-  import BoatsAndBridgesLine from '../iconLines/BoatsAndBridgesLine.svelte';
+  import SectionHeading from '$lib/SectionHeading.svelte';
+  import Paragraph from '$lib/Paragraph.svelte';
+  import Link from '$lib/Link.svelte';
+  import EmbeddedVideo from '$lib/EmbeddedVideo.svelte';
+  import BoatsAndBridgesLine from '$lib/iconLines/BoatsAndBridgesLine.svelte';
 </script>
 
 <SectionHeading>Making a Real Game</SectionHeading>

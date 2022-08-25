@@ -1,17 +1,17 @@
 <script lang="ts">
-  import IconLine from '../IconLine.svelte';
-  import LineDate from '../LineDate.svelte';
-  import LineIcon from '../LineIcon.svelte';
-  import SubHeading from '../SubHeading.svelte';
-  import SubHeadingTitle from '../SubHeadingTitle.svelte';
-  import NodeJs from '../svgs/NodeJs.svelte';
-  import Express from '../svgs/Express.svelte';
-  import Npm from '../svgs/Npm.svelte';
-  import MongoDB from '../svgs/MongoDB.svelte';
-  import Heroku from '../svgs/Heroku.svelte';
-  import Mocha from '../svgs/Mocha.svelte';
-  import TravisCI from '../svgs/TravisCI.svelte';
-  import Bootstrap from '../svgs/Bootstrap.svelte';
+  import IconLine from '$lib/IconLine.svelte';
+  import LineDate from '$lib/LineDate.svelte';
+  import LineIcon from '$lib/LineIcon.svelte';
+  import SubHeading from '$lib/SubHeading.svelte';
+  import SubHeadingTitle from '$lib/SubHeadingTitle.svelte';
+  import NodeJs from '$lib/svgs/NodeJs.svelte';
+  import Express from '$lib/svgs/Express.svelte';
+  import Npm from '$lib/svgs/Npm.svelte';
+  import MongoDB from '$lib/svgs/MongoDB.svelte';
+  import Heroku from '$lib/svgs/Heroku.svelte';
+  import Mocha from '$lib/svgs/Mocha.svelte';
+  import TravisCI from '$lib/svgs/TravisCI.svelte';
+  import Bootstrap from '$lib/svgs/Bootstrap.svelte';
   import { iconClassName } from './util';
 </script>
 

@@ -1,17 +1,17 @@
 <script lang="ts">
-  import IconLine from '../IconLine.svelte';
-  import LineDate from '../LineDate.svelte';
-  import LineIcon from '../LineIcon.svelte';
-  import SubHeading from '../SubHeading.svelte';
-  import SubHeadingTitle from '../SubHeadingTitle.svelte';
-  import Elixir from '../svgs/Elixir.svelte';
-  import Phoenix from '../svgs/Phoenix.svelte';
-  import CircleCI from '../svgs/CircleCI.svelte';
-  import Aws from '../svgs/Aws.svelte';
-  import React from '../svgs/React.svelte';
-  import Nivo from '../svgs/Nivo.svelte';
-  import Bulma from '../svgs/Bulma.svelte';
-  import Webpack from '../svgs/Webpack.svelte';
+  import IconLine from '$lib/IconLine.svelte';
+  import LineDate from '$lib/LineDate.svelte';
+  import LineIcon from '$lib/LineIcon.svelte';
+  import SubHeading from '$lib/SubHeading.svelte';
+  import SubHeadingTitle from '$lib/SubHeadingTitle.svelte';
+  import Elixir from '$lib/svgs/Elixir.svelte';
+  import Phoenix from '$lib/svgs/Phoenix.svelte';
+  import CircleCI from '$lib/svgs/CircleCI.svelte';
+  import Aws from '$lib/svgs/Aws.svelte';
+  import React from '$lib/svgs/React.svelte';
+  import Nivo from '$lib/svgs/Nivo.svelte';
+  import Bulma from '$lib/svgs/Bulma.svelte';
+  import Webpack from '$lib/svgs/Webpack.svelte';
   import { iconClassName } from './util';
 </script>
 

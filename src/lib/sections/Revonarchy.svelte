@@ -1,9 +1,9 @@
 <script lang="ts">
-  import SectionHeading from '../SectionHeading.svelte';
-  import RevonarchyLine from '../iconLines/RevonarchyLine.svelte';
-  import Paragraph from '../Paragraph.svelte';
-  import Link from '../Link.svelte';
-  import EmbeddedVideo from '../EmbeddedVideo.svelte';
+  import SectionHeading from '$lib/SectionHeading.svelte';
+  import RevonarchyLine from '$lib/iconLines/RevonarchyLine.svelte';
+  import Paragraph from '$lib/Paragraph.svelte';
+  import Link from '$lib/Link.svelte';
+  import EmbeddedVideo from '$lib/EmbeddedVideo.svelte';
 </script>
 
 <SectionHeading>No More Voting!</SectionHeading>
