@@ -1,5 +1,6 @@
 <script context="module" lang="ts">
   import Intro from '$lib/sections/Intro.svelte';
+  import Link from '$lib/Link.svelte';
   import VotingIntro from '$lib/sections/VotingIntro.svelte';
   import Golang from '$lib/sections/Golang.svelte';
   import BGV from '$lib/sections/BGV.svelte';
@@ -12,11 +13,12 @@
   import DanyconSchedule from '$lib/sections/DanyconSchedule.svelte';
   import Museum from '$lib/sections/Museum.svelte';
   import Outro from '$lib/sections/Outro.svelte';
-
-  export const prerender = true;
 </script>
 
 <Intro />
+<div>
+  <Link href="/tldr">TL;DR</Link>
+</div>
 <VotingIntro />
 <Golang />
 <BGV />
