@@ -7,6 +7,10 @@
   import Judgement from '$lib/sections/Judgement.svelte';
   import SensorsAreDown from '$lib/sections/SensorsAreDown.svelte';
   import ICG from '$lib/sections/ICG.svelte';
+  import BoatsAndBridges from '$lib/sections/BoatsAndBridges.svelte';
+  import PuzzleSync from '$lib/sections/PuzzleSync.svelte';
+  import DanyconSchedule from '$lib/sections/DanyconSchedule.svelte';
+  import Museum from '$lib/sections/Museum.svelte';
   import Outro from '$lib/sections/Outro.svelte';
 
   export const prerender = true;
@@ -20,4 +24,8 @@
 <Judgement />
 <SensorsAreDown />
 <ICG />
+<BoatsAndBridges />
+<PuzzleSync />
+<DanyconSchedule />
+<Museum />
 <Outro />

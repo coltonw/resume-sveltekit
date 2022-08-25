@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
   import { throttle } from 'lodash-es';
   import Redo from '$lib/svgs/Redo.svelte';
 
@@ -9,7 +8,11 @@
   let loading = false;
   let canPlay = false;
   let isVisible = false;
-  export let webm: string, mp4: string, width: number, height: number;
+  export let webm: string,
+    mp4: string,
+    width: number,
+    height: number,
+    preload: boolean = false;
 
   // Code modified from https://github.com/fkhadra/react-on-screen
   const checkIsVisible = (
@@ -62,7 +65,6 @@
     playing = true;
     played = true;
   }
-  //, [isVisible, loading, canPlay, played, setLoading, setPlaying, setPlayed]);
 </script>
 
 <svelte:window
@@ -70,7 +72,7 @@
   on:resize={throttledIsVideoVisible}
 />
 <!-- Note: in my brief experimentation, aspectRatio on the parent did a better job
-preventing layout shift than anything I could do on the video itself return -->
+preventing layout shift than anything I could do on the video itself -->
 <div
   class="relative my-6 border-2 border-stone-200"
   style="aspectRatio: {width + 4} / {height + 4}"
@@ -98,6 +100,7 @@ preventing layout shift than anything I could do on the video itself return -->
     muted
     {width}
     {height}
+    preload={preload ? 'auto' : 'metadata'}
   >
     <source type="video/webm" src={webm} />
     <source type="video/mp4" src={mp4} />

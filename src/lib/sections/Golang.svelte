@@ -23,4 +23,5 @@
   mp4="/videos/godemo.mp4"
   width={748}
   height={450}
+  preload
 />

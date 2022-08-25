@@ -4,7 +4,7 @@
   import LineIcon from '../LineIcon.svelte';
   import SubHeading from '../SubHeading.svelte';
   import SubHeadingTitle from '../SubHeadingTitle.svelte';
-  import Golang from '../svgs/Gulp.svelte';
+  import Golang from '../svgs/Golang.svelte';
   import { iconClassName } from './util';
 </script>
 
