@@ -15,8 +15,9 @@
   then the game plays itself where the winner is whoever had the better deck.
 </Paragraph>
 <Paragraph>
-  I made an early prototype in Scala.js (
-  <Link href="https://github.com/coltonw/deckBuilder">source</Link>;{' '}
+  I made an early prototype in Scala.js (<Link
+    href="https://github.com/coltonw/deckBuilder">source</Link
+  >;
   <Link href="http://scalajs.willcolton.com/">site</Link>). I stopped mostly
   because the Scala.js ecosystem was incredibly barren with lackluster tooling
   and few tutorials which were all broken and out of date.
@@ -25,8 +26,9 @@
 <Paragraph>
   Over the holidays that year I discussed the idea with my brother and it was
   rekindled. Conveniently, I got a Humble Bundle with a bunch of card art assets
-  for use in Unity, so I decided to build the game in Unity (
-  <Link href="https://github.com/coltonw/instantaneous">backend source</Link>
+  for use in Unity, so I decided to build the game in Unity (<Link
+    href="https://github.com/coltonw/instantaneous">backend source</Link
+  >
   ; game not released).
 </Paragraph>
 <EmbeddedVideo

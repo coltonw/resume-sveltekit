@@ -13,9 +13,8 @@
   away from voting to let people just pick a game and then rotate who picks the
   game each time. The problem that quickly showed up was that some people would
   only show up rarely and yet got to pick just as often, Thus Revonarchy was
-  born. (
-  <Link href="https://github.com/coltonw/revonarchy">Source</Link>; site was
-  never deployed)
+  born. (<Link href="https://github.com/coltonw/revonarchy">Source</Link>; site
+  was never deployed)
 </Paragraph>
 <EmbeddedVideo
   webm={'/videos/revonarchy.webm'}

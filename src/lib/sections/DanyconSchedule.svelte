@@ -9,8 +9,9 @@
 <Paragraph>
   The most recent family get-together I decided to make a digital schedule. I
   added some functionality where attendees could pick which games they were
-  going to join (
-  <Link href="https://github.com/coltonw/danycon-schedule/">source</Link>;{' '}
+  going to join (<Link href="https://github.com/coltonw/danycon-schedule/"
+    >source</Link
+  >;
   <Link href="https://danycon-schedule.vercel.app/">site</Link> - use username Will
   and give it a few minutes for vercel to start the server before refreshing and
   logging in).

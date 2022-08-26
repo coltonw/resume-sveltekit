@@ -13,9 +13,9 @@
 </Paragraph>
 <Paragraph>
   Enter Alexa. I could make an audio only game! I decided to create an Alexa
-  space combat game (
-  <Link href="https://github.com/coltonw/sensors-are-down">source</Link>; never
-  published).
+  space combat game (<Link href="https://github.com/coltonw/sensors-are-down"
+    >source</Link
+  >; never published).
 </Paragraph>
 <Paragraph>
   In the end, I created something that just wasn't very fun. I fell into the

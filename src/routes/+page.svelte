@@ -1,4 +1,4 @@
-<script lang="ts">
+<script context="module" lang="ts">
   import Intro from '$lib/sections/Intro.svelte';
   import Link from '$lib/Link.svelte';
   import VotingIntro from '$lib/sections/VotingIntro.svelte';

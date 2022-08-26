@@ -12,8 +12,9 @@
   My family does an annual get-together where we play games and solve puzzles
   together. For the occasion I decided to make a little quiz game, sort of a
   cooperative version of sporcle. I used the opportunity to learn Gatsby and
-  sharpen my skills with websockets (
-  <Link href="https://github.com/coltonw/simple-websockets-chat-app/">
+  sharpen my skills with websockets (<Link
+    href="https://github.com/coltonw/simple-websockets-chat-app/"
+  >
     backend source
   </Link>
   ; frontend has private source and implementation).
