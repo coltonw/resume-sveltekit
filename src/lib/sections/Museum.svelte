@@ -1,7 +1,6 @@
 <script lang="ts">
   import SectionHeading from '$lib/SectionHeading.svelte';
   import Paragraph from '$lib/Paragraph.svelte';
-  import Link from '$lib/Link.svelte';
   import MuseumLine from '$lib/iconLines/MuseumLine.svelte';
 </script>
 
@@ -16,5 +15,8 @@
 </Paragraph>
 <Paragraph>
   This museum implementation is built using Sveltekit. For styling it uses
-  TailwindCSS. It is deployed using Cloudflare Pages.
+  TailwindCSS. It is deployed using Cloudflare Pages. I had never used Svelte
+  before and liked it much more than I expected to. Truly, I had an excellent
+  experience with all of these technologies and may use them again on future
+  projects.
 </Paragraph>
