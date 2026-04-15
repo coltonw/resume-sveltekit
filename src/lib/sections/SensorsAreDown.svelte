@@ -23,7 +23,7 @@
   state. I think I had some good ideas and I have follow-up ideas for redesigns
   but I shelved the game for now.
 </Paragraph>
-<audio src="/sensorsaredown.mp3" controls class="w-full" />
+<audio src="/sensorsaredown.mp3" controls class="w-full"></audio>
 <div class="text-xs text-center">Sorry for poor audio quality</div>
 <Paragraph>
   This project involved mostly learning various AWS technologies that go into

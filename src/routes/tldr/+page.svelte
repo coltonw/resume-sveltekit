@@ -11,8 +11,6 @@
   import PuzzleSyncLine from '$lib/iconLines/PuzzleSyncLine.svelte';
   import RevonarchyLine from '$lib/iconLines/RevonarchyLine.svelte';
   import SensorsAreDownLine from '$lib/iconLines/SensorsAreDownLine.svelte';
-
-  export const hydrate = false;
 </script>
 
 <Intro />

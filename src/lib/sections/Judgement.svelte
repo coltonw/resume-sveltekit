@@ -18,8 +18,8 @@
   >; site no longer deployed).
 </Paragraph>
 <EmbeddedVideo
-  webm={'/videos/judgement.webm'}
-  mp4={'/videos/judgement.mp4'}
+  webm="/videos/judgement.webm"
+  mp4="/videos/judgement.mp4"
   width={1030}
   height={810}
 />

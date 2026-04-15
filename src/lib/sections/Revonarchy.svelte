@@ -17,8 +17,8 @@
   was never deployed)
 </Paragraph>
 <EmbeddedVideo
-  webm={'/videos/revonarchy.webm'}
-  mp4={'/videos/revonarchy.mp4'}
+  webm="/videos/revonarchy.webm"
+  mp4="/videos/revonarchy.mp4"
   width={922}
   height={580}
 />

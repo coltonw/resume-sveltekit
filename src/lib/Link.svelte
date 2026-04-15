@@ -1,7 +1,12 @@
 <script lang="ts">
-  export let href: string | undefined = undefined;
+  import type { Snippet } from 'svelte';
+
+  let {
+    href = undefined,
+    children,
+  }: { href?: string; children?: Snippet } = $props();
 </script>
 
 <a {href} class="text-stone-600 font-bold hover:underline cursor-pointer">
-  <slot />
+  {@render children?.()}
 </a>

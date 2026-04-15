@@ -1,6 +1,9 @@
 <script lang="ts">
+  import type { Snippet } from 'svelte';
   import Header from '$lib/header/Header.svelte';
   import '../app.css';
+
+  let { children }: { children?: Snippet } = $props();
 </script>
 
 <svelte:head>
@@ -13,5 +16,5 @@
 
 <div class="mx-auto max-w-screen-md p-2 font-sans text-lg">
   <Header />
-  <slot />
+  {@render children?.()}
 </div>

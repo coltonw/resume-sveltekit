@@ -15,7 +15,7 @@ svgSvelte = svgSvelte.replace(
   /import[^\n]*svg\.d\.ts";\n/,
   `let className = '';
 export { className as class };
-`
+`,
 );
 svgSvelte = svgSvelte.replace(/(import [^"\n]*)"([^"]*)"/g, "$1'$2'");
 svgSvelte = svgSvelte.replace(/\.tsx/g, '.svelte');
@@ -27,7 +27,7 @@ svgSvelte = svgSvelte.replace(/\n *<\/?>/g, '');
 
 const svgRegexExec =
   /^((?:(?:import|let|export) [^\n]*\n)*)(?:[^<\n]|\n[^ile])*(<[\s\S]*>)[^>]*$/.exec(
-    svgSvelte
+    svgSvelte,
   );
 if (svgRegexExec && /[a-z]/.test(svgRegexExec[1])) {
   svgSvelte = `<script lang="ts">

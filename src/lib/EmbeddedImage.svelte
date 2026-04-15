@@ -1,9 +1,17 @@
 <script lang="ts">
-  export let src: string;
-  export let fallback: string;
-  export let alt: string;
-  export let width: number;
-  export let height: number;
+  let {
+    src,
+    fallback,
+    alt,
+    width,
+    height,
+  }: {
+    src: string;
+    fallback: string;
+    alt: string;
+    width: number;
+    height: number;
+  } = $props();
 </script>
 
 <picture>
