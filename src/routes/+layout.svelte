@@ -14,7 +14,7 @@
   />
 </svelte:head>
 
-<div class="mx-auto max-w-screen-md p-2 font-sans text-lg">
+<main class="mx-auto max-w-screen-md p-2 font-sans text-lg">
   <Header />
   {@render children?.()}
-</div>
+</main>
